@@ -1,9 +1,13 @@
 header {
-    background-color: #4b4b4b;
     border-bottom-color: red;
     border-bottom-width: 5px;
     border-bottom-style: solid;
     border-radius: 10px;
+    background: url(/web-ubung-3-F4bi4n69/img/399717.jpg);
+    height: 150px;
+    background-position-y: 58%;
+    background-position-x: 70%;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -32,15 +36,26 @@ nav a.aktuell {
 
 body {
     text-align: center;
-    background-color: #747474;
+    background: linear-gradient(black, white);
+    background-repeat: no-repeat;
     color: #c9c9c9;
-    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 main {
     max-width: 100%;
-    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+section {
     display: flex;
+    justify-content: space-around;
+}
+div {
+    width: 30%;
 }
 
 article {
@@ -72,15 +87,15 @@ footer {
 }
 
 a:link {
-    color: #464646;
+    color: #e4e4e4;
 }
 
 a:visited {
-    color: #ffffff;
+    color: #e4e4e4;
 }
 
 a:hover {
-    color: #797979;
+    color: #636262;
 }
 
 a:active {
